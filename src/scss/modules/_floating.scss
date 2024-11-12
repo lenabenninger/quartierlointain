@@ -1,5 +1,6 @@
 .floating-img {
   position: relative;
+  width: 100%;
 }
 
 .floating-tree {
@@ -43,4 +44,19 @@
 
 .floating-hands {
   margin-top: -68%;
+}
+
+.floating-img-horizontal {
+  position: absolute;
+}
+
+.floating-closed-eyes {
+  height: 80vh;
+  bottom: 0;
+}
+
+.floating-feet {
+  height: 84vh;
+  top: 0;
+  margin-left: 170%;
 }
