@@ -1,0 +1,24 @@
+.cta-scroll {
+  justify-content: center;
+  align-items: center;
+  height: 176px;
+  width: 74px;
+  border-radius: 62px;
+  border: 1px solid #000;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-self: center;
+  margin-bottom: 283px;
+}
+
+.cta-scroll-arrow {
+  max-width: 25px;
+}
+
+.cta-scroll-butterfly {
+  position: absolute;
+  max-width: 110px;
+  transform: scaleX(-1);
+  margin-top: -190px;
+  margin-left: 60px;
+}

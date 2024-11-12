@@ -1,3 +1,46 @@
 .floating-img {
   position: relative;
 }
+
+.floating-tree {
+  position: absolute;
+  top: 0;
+}
+
+.floating-long-tree {
+  left: 0;
+  max-width: 32%;
+}
+
+.floating-short-tree {
+  right: 0;
+  max-width: 28%;
+}
+
+.floating-butterfly {
+  margin-top: -155%;
+}
+
+.floating-temple {
+  margin-top: -44%;
+}
+
+.floating-graves {
+  margin-top: -56%;
+}
+
+.floating-praying {
+  margin-top: -50%;
+}
+
+.floating-fainting {
+  margin-top: -50%;
+}
+
+.floating-unconscious {
+  margin-top: -18%;
+}
+
+.floating-hands {
+  margin-top: -68%;
+}
