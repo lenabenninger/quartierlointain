@@ -6,20 +6,40 @@
   width: 100vw;
 }
 
-.l-horizontal {
+.l-horizontal,
+.l-end {
   height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  // overflow: hidden;
   position: relative;
 }
 
-.l-horizontal-content {
+.l-end-content {
   display: inline-flex;
   height: 100%;
   // width: 100vw;
   align-items: center;
   position: relative; //contexte de positionnement pour les images "floating".
   overflow: hidden;
+}
+
+.l-horizontal-content,
+.test {
+  display: inline-flex;
+  height: 100%;
+  // width: 100vw;
+  align-items: center;
+  position: relative; //contexte de positionnement pour les images "floating".
+  overflow: hidden;
+}
+
+.l-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }

@@ -46,7 +46,8 @@
   margin-top: -68%;
 }
 
-.floating-img-horizontal {
+.floating-img-horizontal,
+.floating-text-horizontal {
   position: absolute;
 }
 
@@ -71,6 +72,11 @@
   height: 71vh;
   top: 4.2vh;
   left: 59.8%;
+}
+
+.floating-papa {
+  top: 21vh;
+  left: 60.7%;
 }
 
 .floating-boy-side {

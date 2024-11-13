@@ -22,8 +22,20 @@ gsap.to(".l-horizontal-content", {
     pin: true,
     anticipatePin: 1,
     scrub: true,
-    end: "+=3000",
+    // end: "+=3000",
   },
-  x: "-85%",
+  x: "-82%",
+  ease: "ease-in",
+});
+
+gsap.to(".l-end-content", {
+  scrollTrigger: {
+    trigger: ".l-end",
+    pin: true,
+    anticipatePin: 1,
+    scrub: true,
+    // end: "+=3000",
+  },
+  x: "-50%",
   ease: "ease-in",
 });
