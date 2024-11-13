@@ -56,7 +56,31 @@
 }
 
 .floating-feet {
-  height: 84vh;
+  height: 84vh; //->height de l'image divisé par vh
   top: 0;
-  margin-left: 170%;
+  left: 20.8%; //->la marge de gauche divisée par la width de l'ensemble du slider
+}
+
+.floating-shocked {
+  height: 58vh;
+  top: 23.3vh;
+  left: 42.6%;
+}
+
+.floating-father {
+  height: 71vh;
+  top: 4.2vh;
+  left: 59.8%;
+}
+
+.floating-boy-side {
+  height: 67vh;
+  top: 16.4vh;
+  left: 80.1%;
+}
+
+.floating-father-side {
+  height: 79vh;
+  top: 5vh;
+  left: 90.9%;
 }
