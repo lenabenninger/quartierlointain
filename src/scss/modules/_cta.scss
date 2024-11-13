@@ -1,12 +1,15 @@
-.cta-scroll {
+.cta {
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 176px;
-  width: 74px;
   border-radius: 62px;
   border: 1px solid #000;
   background: rgba(255, 255, 255, 0.3);
-  display: flex;
+}
+
+.cta-scroll {
+  height: 176px;
+  width: 74px;
   justify-self: center;
   margin-bottom: 283px;
 }
@@ -15,10 +18,23 @@
   max-width: 25px;
 }
 
-.cta-scroll-butterfly {
+.cta-butterfly {
   position: absolute;
   max-width: 110px;
   transform: scaleX(-1);
+}
+
+.cta-scroll .cta-butterfly {
   margin-top: -190px;
   margin-left: 60px;
+}
+
+.cta-text .cta-butterfly {
+  margin-top: -100px;
+  margin-left: 250px;
+}
+
+.cta-text {
+  padding: 10px 30px;
+  width: 271px;
 }

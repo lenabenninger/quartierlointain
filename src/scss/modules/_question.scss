@@ -1,0 +1,17 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  justify-content: flex-end;
+  height: 98vh;
+}
+
+.question img {
+  width: 70vh;
+  bottom: 0;
+}
+
+.question p {
+  font-size: 50px;
+  max-width: 910px;
+}
